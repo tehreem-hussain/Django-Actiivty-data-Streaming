@@ -43,8 +43,8 @@ INSTALLED_APPS = [
 ]
 
    
-AZURE_EVENT_HUB_CONNECTION_STRING = 'Endpoint=sb://activityproject-realtime-data-eventhub.servicebus.windows.net/;SharedAccessKeyName=policyfordjango;SharedAccessKey=Ln/ht2l6Av9zpMcOfjl0wHTFd+woWVnEJ+AEhFWebvM=;EntityPath=streamingeventhub'
-AZURE_EVENT_HUB_NAME = 'streamingeventhub'  
+AZURE_EVENT_HUB_CONNECTION_STRING = 'Endpoint=sb://'
+AZURE_EVENT_HUB_NAME = 'xxxxx'  
 
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': [
